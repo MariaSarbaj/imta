@@ -1,4 +1,4 @@
 export const DataRu = {
-    main: "Hello",
+    Logo: "Hello",
     test: "Hello Test"
 }
