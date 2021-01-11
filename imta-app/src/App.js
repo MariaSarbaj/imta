@@ -1,12 +1,13 @@
 import './App.css';
 import {Route, Switch, Redirect} from 'react-router-dom';
+import MainRu from "./Layout/RU/MainPageRU/MainPageRu";
 
 
 function App() {
 
     let routes = (
         <Switch>
-            <Route path={'/'} exact component={}/>
+            <Route path={'/'} exact component={MainRu}/>
             <Redirect to={'/#'}/>
         </Switch>
     )
@@ -14,7 +15,7 @@ function App() {
 
   return (
     <div className="App">
-        Hello
+        {routes}
     </div>
   );
 }
