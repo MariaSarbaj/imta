@@ -1,12 +1,16 @@
 import React from 'react';
 import Logo from "../../../../Components/Logo/Logo";
+import NavBar from "../../../../Components/NavBar/NavBar";
 
 const HeaderRu = () => {
   return (
-   <div className={'header'}>
-       <Logo/>
-    Header
-   </div>
+   <header className={'header'}>
+       <div className={"header__wrapper"}>
+           <Logo/>
+           <NavBar/>
+       </div>
+
+   </header>
   );
  }
 

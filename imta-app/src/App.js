@@ -7,8 +7,8 @@ function App() {
 
     let routes = (
         <Switch>
-            <Route path={'/'} exact component={MainRu}/>
-            <Redirect to={'/#'}/>
+            <Route path={'/'} component={MainRu}/>
+            <Redirect to={'/'}/>
         </Switch>
     )
 
