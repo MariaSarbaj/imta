@@ -14,10 +14,6 @@ export const NavDataRu =[
             {title: 'Блог', action: function (event) {console.log(event.target.innerText)}},
             {title: 'Отзывы', action: function (event) {console.log(event.target.innerText)}},
         ]},
-    {title: 'Контакты', action: function (event) {console.log(event.target.innerText)}, subMenu:[
-            {title: 'Sub1', action: function (event) {console.log(event.target.innerText)}},
-            {title: 'Sub2', action: function (event) {console.log(event.target.innerText)}},
-            {title: 'Sub3', action: function (event) {console.log(event.target.innerText)}},
-        ]},
+    {title: 'Контакты', action: function (event) {console.log(event.target.innerText)}},
 
 ]
