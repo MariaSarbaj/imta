@@ -9,4 +9,18 @@ export const DataRu = {
         button2link: '/link2',
 
     },
+    ProductsOffer: {
+        title: 'МЫ ПРЕДЛАГАЕМ',
+        subTitle: 'В нашем портфолио - более 100 выполненных проектов. У нас есть как опыт развития прибыльного бизнеса с нуля, так и опыт работы с крупными предприятиями',
+        Products: [
+            {productTitle: 'Создание веб-сайтов', productDescription: 'Разработка Landing Page, сайтов, лендо - сайтов, сайтов - визиток', img: '/img/img_box_01.png'},
+            {productTitle: 'Настройка рекламных компаний', productDescription: 'Яндекс.Директ, Google.Adwords, Вконтакте, Facebook', img: '/img/img_box_01.png'},
+            {productTitle: 'Видеосъемка и Видеоблоги', productDescription: 'Разработка Landing Page, сайтов, лендо - сайтов, сайтов - визиток', img: '/img/img_box_01.png'},
+            {productTitle: 'Создание продающих сообществ', productDescription: 'Разработка Landing Page, сайтов, лендо - сайтов, сайтов - визиток', img: '/img/img_box_01.png'},
+            {productTitle: 'Группа Вконтакте, Facebook, страницы Instagram', productDescription: 'Разработка Landing Page, сайтов, лендо - сайтов, сайтов - визиток', img: '/img/img_box_01.png'},
+            {productTitle: 'Автоматизация работы предприятия', productDescription: 'Разработка Landing Page, сайтов, лендо - сайтов, сайтов - визиток', img: '/img/img_box_01.png'},
+
+        ]
+
+    },
 }
