@@ -2,6 +2,7 @@ import React from 'react';
 import {DataRu} from '../../../../Data/DataRu'
 import FirstScreen from "../../../../Components/FirstScreen/FirstScreen";
 import ProductsOffer from "../../../../Components/ProductsOffer/ProductsOffer";
+import Portfolio from "../../../../Components/Portfolio/Portfolio";
 
 const MainRu = () => {
   return (
@@ -20,6 +21,11 @@ const MainRu = () => {
            title={DataRu.ProductsOffer.title}
            subtitle={DataRu.ProductsOffer.subTitle}
            array={DataRu.ProductsOffer.Products}
+       />
+       <Portfolio
+            title={DataRu.Portfolio.title}
+            subtitle={DataRu.Portfolio.subTitle}
+            array={DataRu.Portfolio.Projects}
        />
 
     Main {DataRu.main}
