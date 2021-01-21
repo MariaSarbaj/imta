@@ -49,4 +49,11 @@ export const DataRu = {
         ]
 
     },
+    ConsultantForm: {
+        feedbackTitle: "ИЩИТЕ НОВЫХ КЛИЕНТОВ?",
+        feedbackText: "Хотите развивать свой бизнес?",
+        feedbackDesc: "Закажите БЕСПЛАТНУЮ КОНСУЛЬТАЦИЮ и мы расскажем, как привлечь клиентов в Ваш бизнес!",
+        feedbackImg: "/img/joxi_screenshot_1490279678733-min.jpg",
+        feedbackForm: ""
+    }
 }

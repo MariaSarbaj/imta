@@ -3,6 +3,7 @@ import {DataRu} from '../../../../Data/DataRu'
 import FirstScreen from "../../../../Components/FirstScreen/FirstScreen";
 import ProductsOffer from "../../../../Components/ProductsOffer/ProductsOffer";
 import Portfolio from "../../../../Components/Portfolio/Portfolio";
+import ConsultantForm from "../../../../Components/Forms/ConsultantForm/ConsultantForm";
 
 const MainRu = () => {
   return (
@@ -26,6 +27,13 @@ const MainRu = () => {
             title={DataRu.Portfolio.title}
             subtitle={DataRu.Portfolio.subTitle}
             array={DataRu.Portfolio.Projects}
+       />
+       <ConsultantForm
+            img={DataRu.ConsultantForm.feedbackImg}
+            title={DataRu.ConsultantForm.feedbackTitle}
+            text={DataRu.ConsultantForm.feedbackText}
+            desc={DataRu.ConsultantForm.feedbackDesc}
+            form={DataRu.ConsultantForm.feedbackForm}
        />
 
     Main {DataRu.main}
