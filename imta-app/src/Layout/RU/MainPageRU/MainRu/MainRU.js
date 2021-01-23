@@ -4,6 +4,8 @@ import FirstScreen from "../../../../Components/FirstScreen/FirstScreen";
 import ProductsOffer from "../../../../Components/ProductsOffer/ProductsOffer";
 import Portfolio from "../../../../Components/Portfolio/Portfolio";
 import ConsultantForm from "../../../../Components/Forms/ConsultantForm/ConsultantForm";
+import Partners from "../../../../Components/Partners/Partners";
+import HowWeWork from "../../../../Components/HowWeWork/HowWeWork";
 
 const MainRu = () => {
   return (
@@ -23,6 +25,11 @@ const MainRu = () => {
            subtitle={DataRu.ProductsOffer.subTitle}
            array={DataRu.ProductsOffer.Products}
        />
+       <HowWeWork
+            title={DataRu.HowWeWork.Title}
+            subtitle={DataRu.HowWeWork.subTitle}
+            array={DataRu.HowWeWork.steps}
+       />
        <Portfolio
             title={DataRu.Portfolio.title}
             subtitle={DataRu.Portfolio.subTitle}
@@ -35,8 +42,10 @@ const MainRu = () => {
             desc={DataRu.ConsultantForm.feedbackDesc}
             form={DataRu.ConsultantForm.feedbackForm}
        />
+       <Partners
+           partners={DataRu.Partners}
+       />
 
-    Main {DataRu.main}
    </main>
   );
  }
