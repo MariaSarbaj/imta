@@ -1,11 +1,12 @@
 import React from 'react';
+import {NavLink} from "react-router-dom";
 
 const Logo = props => {
   return (
 
-       <a className={"header__logo-link"} href="/#">
-            <img  className={"header__logo"} src="" alt=""/>
-       </a>
+       <NavLink className={"header__logo-link"} to={props.to}>
+            <img  className={"header__logo"} src={props.img} alt={props.alt}/>
+       </NavLink>
 
   );
  }

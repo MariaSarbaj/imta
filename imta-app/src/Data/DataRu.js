@@ -3,6 +3,7 @@ export const DataRu = {
     Email: 'info@imta.icu',
     EmailText: '?, &subject=Хочу задать вопрос&body=Добрый день,',
     Address: {text:'Кирьят-бьялик, Ахад Ха-ам, 3-16', link: 'https://goo.gl/maps/A3mwjLzwXvegsjvV7'},
+    Logo: {img: '/img/logo_imta_black.png', alt: '', to: '/ru/'},
     
     FirstScreen: {
         title: 'Приведем клиентов из интернета и увеличим продажи за 14 дней',

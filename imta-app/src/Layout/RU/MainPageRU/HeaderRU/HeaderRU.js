@@ -4,11 +4,15 @@ import NavBar from "../../../../Components/NavBar/NavBar";
 import Tel from "../../../../Components/Tel/Tel";
 import {DataRu} from "../../../../Data/DataRu"
 
-const HeaderRu = () => {
+const HeaderRu = props => {
   return (
    <header className={'header'}>
        <div className={"header__wrapper"}>
-           <Logo/>
+           <Logo
+               img={DataRu.Logo.img}
+               alt={DataRu.Logo.alt}
+               to={DataRu.Logo.to}
+           />
            <NavBar/>
            <Tel tel={DataRu.Tel.Num} text={DataRu.Tel.Text}/>
        </div>
