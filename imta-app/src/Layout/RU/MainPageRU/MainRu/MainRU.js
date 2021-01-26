@@ -6,6 +6,7 @@ import Portfolio from "../../../../Components/Portfolio/Portfolio";
 import ConsultantForm from "../../../../Components/Forms/ConsultantForm/ConsultantForm";
 import Partners from "../../../../Components/Partners/Partners";
 import HowWeWork from "../../../../Components/HowWeWork/HowWeWork";
+import CompanyDescription from "../../../../Components/CompanyDescription/CompanyDescription";
 
 const MainRu = () => {
   return (
@@ -25,6 +26,15 @@ const MainRu = () => {
            subtitle={DataRu.ProductsOffer.subTitle}
            array={DataRu.ProductsOffer.Products}
        />
+
+       <CompanyDescription
+            title={DataRu.CompanyDescription.Title}
+            subTitle={DataRu.CompanyDescription.subTitle}
+            text={DataRu.CompanyDescription.Text}
+            img={DataRu.CompanyDescription.img}
+            numbers={DataRu.CompanyDescription.aboutNumbers}
+       />
+
        <HowWeWork
             title={DataRu.HowWeWork.Title}
             subtitle={DataRu.HowWeWork.subTitle}

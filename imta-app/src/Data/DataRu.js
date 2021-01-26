@@ -6,8 +6,8 @@ export const DataRu = {
     Logo: {img: '/img/logo_imta_black.png', alt: '', to: '/ru/'},
     
     FirstScreen: {
-        title: 'Приведем клиентов из интернета и увеличим продажи за 14 дней',
-        subtitle: 'Создание Landing Page, сайтов. Настройка контекстной рекламы. Проморолики. Отдел продаж',
+        title: 'Приведем клиентов из интернета и увеличим продажи за 17 дней',
+        subtitle: 'Разработка рекламных компаний в Google, Facebook, Instagram. Создания сайтов. Проморолики. CRM и Отдел продаж',
         button1text: 'Наши услуги',
         button1link: '/link1',
         button2text: 'Бесплатная консультация',
@@ -16,11 +16,11 @@ export const DataRu = {
     },
     ProductsOffer: {
         title: 'Мы предлагаем',
-        subTitle: 'В нашем портфолио - более 100 выполненных проектов. У нас есть как опыт развития прибыльного бизнеса с нуля, так и опыт работы с крупными предприятиями',
+        subTitle: 'В нашем портфолио - более 130 выполненных проектов. У нас есть как опыт развития прибыльного бизнеса с нуля, так и опыт работы с крупными предприятиями',
         Products: [
-            {productTitle: 'Создание веб-сайтов', productDescription: 'Разработка Landing Page, сайтов, лендо - сайтов, сайтов - визиток', img: '/img/img_box_01.png'},
-            {productTitle: 'Настройка рекламных компаний', productDescription: 'Яндекс.Директ, Google.Adwords, Вконтакте, Facebook', img: '/img/img_box_01.png'},
-            {productTitle: 'Видеосъемка и Видеоблоги', productDescription: 'Разработка Landing Page, сайтов, лендо - сайтов, сайтов - визиток', img: '/img/img_box_01.png'},
+            {productTitle: 'Создание веб-сайтов', productDescription: 'Разработка сайтов, Landing Page, мобильных приложений', img: '/img/img_box_01.png'},
+            {productTitle: 'Настройка рекламных компаний', productDescription: 'Яндекс.Директ, Google.Adwords, Facebook, Instagram', img: '/img/img_box_01.png'},
+            {productTitle: 'Видиосъемка и Видеоблоги', productDescription: 'Съемка видео для Instagram, Facebook, Youtube', img: '/img/img_box_01.png'},
             {productTitle: 'Создание продающих сообществ', productDescription: 'Разработка Landing Page, сайтов, лендо - сайтов, сайтов - визиток', img: '/img/img_box_01.png'},
             {productTitle: 'Группа Вконтакте, Facebook, страницы Instagram', productDescription: 'Разработка Landing Page, сайтов, лендо - сайтов, сайтов - визиток', img: '/img/img_box_01.png'},
             {productTitle: 'Автоматизация работы предприятия', productDescription: 'Разработка Landing Page, сайтов, лендо - сайтов, сайтов - визиток', img: '/img/img_box_01.png'},
@@ -28,6 +28,20 @@ export const DataRu = {
         ]
 
     },
+
+    CompanyDescription: {
+        Title: 'The Best Solutions for Our Clients',
+        subTitle: 'PRICING PLANS',
+        Text: 'Ea pro tibique comprehensam, sed ea verear numquam molestie. Nam te omittam comprehensam. Ne nam nonumy putent fuisset, reque fabulas usu ne. Ex vel populo appellantur. Eos ne delenit admodum.',
+        img: '/img/home4_img-1.png',
+        aboutNumbers: [
+            {title: 'Successful Projects', desc: 'MEDIA GALLERY IMAGES', maxNum: 25},
+            {title: 'Happy Quantum Users', desc: 'IN TWO MONTH', maxNum: 1325},
+            {title: 'Cups of Bracing Coffee', desc: 'TO STAY ACTIVE', maxNum: 958},
+            {title: 'Lines of Perfect Code', desc: 'PEACEFUL CODE', maxNum: 7845},
+        ]
+    },
+
     HowWeWork:{
         Title: 'Steps to Build a Successful Digital Product',
         subTitle: 'HOW WE DO IT',
