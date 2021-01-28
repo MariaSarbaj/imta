@@ -4,6 +4,7 @@ import {DataRu} from '../../../../Data/DataRu'
 import Contacts from "../../../../Components/Contacts/Contacts";
 import About from "../../../../Components/About/About";
 import FooterLinks from "../../../../Components/FooterLinks/FooterLinks";
+import Copyright from "../../../../Components/Copyright/Copyright";
 
 const FooterRu = () => {
   return (
@@ -29,7 +30,9 @@ const FooterRu = () => {
            <FooterLinks
                 array={DataRu.FooterLinks}
            />
-
+            <Copyright
+                text={DataRu.Copyright.Text}
+            />
        </div>
 
    </footer>

@@ -135,7 +135,8 @@ export const DataRu = {
                 {Name: 'SEO Service', link: '/'},
             ]
         },
-    ]
+    ],
+    Copyright: {Text: '© 2021 Imat'}
 
 
 }
