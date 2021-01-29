@@ -3,7 +3,7 @@ export const DataRu = {
     Email: 'info@imta.icu',
     EmailText: '?, &subject=Хочу задать вопрос&body=Добрый день,',
     Address: {text:'Кирьят-бьялик, Ахад Ха-ам, 3-16', link: 'https://goo.gl/maps/A3mwjLzwXvegsjvV7'},
-    Logo: {img: '/img/logo_imta_black.png', alt: '', to: '/ru/'},
+    Logo: {img: '/img/logo_imta_black.png', alt: 'Разработка сайтов, реклама в интернете', to: '/ru/'},
     
     FirstScreen: {
         title: 'Приведем клиентов из интернета и увеличим продажи за 17 дней',
@@ -20,19 +20,18 @@ export const DataRu = {
         Products: [
             {productTitle: 'Создание веб-сайтов', productDescription: 'Разработка сайтов, Landing Page, мобильных приложений', img: '/img/img_box_01.png'},
             {productTitle: 'Настройка рекламных компаний', productDescription: 'Яндекс.Директ, Google.Adwords, Facebook, Instagram', img: '/img/img_box_01.png'},
-            {productTitle: 'Видиосъемка и Видеоблоги', productDescription: 'Съемка видео для Instagram, Facebook, Youtube', img: '/img/img_box_01.png'},
-            {productTitle: 'Создание продающих сообществ', productDescription: 'Разработка Landing Page, сайтов, лендо - сайтов, сайтов - визиток', img: '/img/img_box_01.png'},
-            {productTitle: 'Группа Вконтакте, Facebook, страницы Instagram', productDescription: 'Разработка Landing Page, сайтов, лендо - сайтов, сайтов - визиток', img: '/img/img_box_01.png'},
-            {productTitle: 'Автоматизация работы предприятия', productDescription: 'Разработка Landing Page, сайтов, лендо - сайтов, сайтов - визиток', img: '/img/img_box_01.png'},
-
+            {productTitle: 'Видеосъемка и Видеоблоги', productDescription: 'Съемка видео для Instagram, Facebook, Youtube, TikTok', img: '/img/img_box_01.png'},
+            {productTitle: 'Обработка заявок и Администрирование', productDescription: 'Внедрение CRM систем, Аналитика рекламных компаний, Создание отдела продаж', img: '/img/img_box_01.png'},
+            {productTitle: 'Отдел Маркетинга', productDescription: 'Оутсорсинг отдела маркетинга, управление рекламными компаниями и создание контента', img: '/img/img_box_01.png'},
+            {productTitle: 'Автоматизация работы предприятия', productDescription: 'Разработка Бизнес приложений, Автоматизация бизнес-процесов', img: '/img/img_box_01.png'},
         ]
 
     },
 
     CompanyDescription: {
-        Title: 'The Best Solutions for Our Clients',
-        subTitle: 'PRICING PLANS',
-        Text: 'Ea pro tibique comprehensam, sed ea verear numquam molestie. Nam te omittam comprehensam. Ne nam nonumy putent fuisset, reque fabulas usu ne. Ex vel populo appellantur. Eos ne delenit admodum.',
+        Title: 'Мы знаем что вы продаете лучшие товары и услуги. Давайте раскажем об этом миру',
+        subTitle: 'Какая наша цель',
+        Text: 'Привлечение и обработка клиентов это не легкий процесс, мы занимаемся этим уже больше 15 лет. В современом мире очень тяжело создавать успешный бизнес без современых инструментов продаж и привлечения клиентов',
         img: '/img/home4_img-1.png',
         aboutNumbers: [
             {title: 'Successful Projects', desc: 'MEDIA GALLERY IMAGES', maxNum: 25},
