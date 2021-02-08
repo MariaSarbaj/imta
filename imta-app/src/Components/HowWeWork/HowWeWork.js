@@ -1,4 +1,5 @@
 import React from 'react';
+import './HowWeWork.css'
 
 const HowWeWork = props => {
 
@@ -21,8 +22,8 @@ const HowWeWork = props => {
   return (
    <section className={'howwework'}>
        <div className={'howwework__wrapper'}>
+           <p className={'howwework__subtitle'}>{props.subtitle}</p>
            <h2 className={'howwework__title'}>{props.title}</h2>
-           <p>{props.subtitle}</p>
            <div className={'howwework__scheme'}>
                {stepsRender}
            </div>

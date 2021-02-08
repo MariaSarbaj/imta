@@ -1,5 +1,6 @@
 import React from 'react';
-import {DataRu} from '../../../../Data/DataRu'
+import {DataRu} from '../../../../Data/DataRu';
+import style from './Footer.module.css';
 
 import Contacts from "../../../../Components/Contacts/Contacts";
 import About from "../../../../Components/About/About";
@@ -8,8 +9,8 @@ import Copyright from "../../../../Components/Copyright/Copyright";
 
 const FooterRu = () => {
   return (
-   <footer className={'footer'}>
-       <div className={'footer__wrapper'}>
+   <footer className={style.footer}>
+       <div className={style.footer__wrapper}>
            <Contacts
                imgCont={DataRu.Contacts.TelMailPic}
                imgAdr={DataRu.Contacts.AddressPic}

@@ -27,6 +27,12 @@ const MainRu = () => {
            array={DataRu.ProductsOffer.Products}
        />
 
+       <Portfolio
+           title={DataRu.Portfolio.title}
+           subtitle={DataRu.Portfolio.subTitle}
+           array={DataRu.Portfolio.Projects}
+       />
+
        <CompanyDescription
             title={DataRu.CompanyDescription.Title}
             subTitle={DataRu.CompanyDescription.subTitle}
@@ -40,11 +46,7 @@ const MainRu = () => {
             subtitle={DataRu.HowWeWork.subTitle}
             array={DataRu.HowWeWork.steps}
        />
-       <Portfolio
-            title={DataRu.Portfolio.title}
-            subtitle={DataRu.Portfolio.subTitle}
-            array={DataRu.Portfolio.Projects}
-       />
+
        <ConsultantForm
             img={DataRu.ConsultantForm.feedbackImg}
             title={DataRu.ConsultantForm.feedbackTitle}
@@ -52,6 +54,7 @@ const MainRu = () => {
             desc={DataRu.ConsultantForm.feedbackDesc}
             form={DataRu.ConsultantForm.feedbackForm}
        />
+
        <Partners
            partners={DataRu.Partners}
        />

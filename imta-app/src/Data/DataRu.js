@@ -19,19 +19,19 @@ export const DataRu = {
         subTitle: 'В нашем портфолио - более 130 выполненных проектов. У нас есть как опыт развития прибыльного бизнеса с нуля, так и опыт работы с крупными предприятиями',
         Products: [
             {productTitle: 'Создание веб-сайтов', productDescription: 'Разработка сайтов, Landing Page, мобильных приложений', img: '/img/img_box_01.png'},
-            {productTitle: 'Настройка рекламных компаний', productDescription: 'Яндекс.Директ, Google.Adwords, Facebook, Instagram', img: '/img/img_box_01.png'},
-            {productTitle: 'Видеосъемка и Видеоблоги', productDescription: 'Съемка видео для Instagram, Facebook, Youtube, TikTok', img: '/img/img_box_01.png'},
-            {productTitle: 'Обработка заявок и Администрирование', productDescription: 'Внедрение CRM систем, Аналитика рекламных компаний, Создание отдела продаж', img: '/img/img_box_01.png'},
-            {productTitle: 'Отдел Маркетинга', productDescription: 'Оутсорсинг отдела маркетинга, управление рекламными компаниями и создание контента', img: '/img/img_box_01.png'},
-            {productTitle: 'Автоматизация работы предприятия', productDescription: 'Разработка Бизнес приложений, Автоматизация бизнес-процесов', img: '/img/img_box_01.png'},
+            {productTitle: 'Настройка рекламных компаний', productDescription: 'Яндекс.Директ, Google.Adwords, Facebook, Instagram', img: '/img/img_box_04.png'},
+            {productTitle: 'Видеосъемка и Видеоблоги', productDescription: 'Съемка видео для Instagram, Facebook, Youtube, TikTok', img: '/img/img_box_07.png'},
+            {productTitle: 'Обработка заявок и Администрирование', productDescription: 'Внедрение CRM систем, Аналитика рекламных компаний, Создание отдела продаж', img: '/img/img_box_02.png'},
+            {productTitle: 'Отдел Маркетинга', productDescription: 'Оутсорсинг отдела маркетинга, управление рекламными компаниями и создание контента', img: '/img/img_box_03.png'},
+            {productTitle: 'Автоматизация работы предприятия', productDescription: 'Разработка Бизнес приложений, Автоматизация бизнес-процесов', img: '/img/img_box_09.png'},
         ]
 
     },
 
     CompanyDescription: {
-        Title: 'Мы знаем что вы продаете лучшие товары и услуги. Давайте раскажем об этом миру',
+        Title: 'Мы знаем, что Вы продаете лучшие товары и услуги. Давайте раскажем об этом миру',
         subTitle: 'Какая наша цель',
-        Text: 'Привлечение и обработка клиентов это не легкий процесс, мы занимаемся этим уже больше 15 лет. В современом мире очень тяжело создавать успешный бизнес без современых инструментов продаж и привлечения клиентов',
+        Text: 'Привлечение и обработка клиентов - это не легкий процесс, и мы занимаемся этим уже больше 15 лет. В современом мире очень тяжело создавать успешный бизнес без современых инструментов продаж и привлечения клиентов',
         img: '/img/home4_img-1.png',
         aboutNumbers: [
             {title: 'Successful Projects', desc: 'MEDIA GALLERY IMAGES', maxNum: 25},
@@ -45,10 +45,10 @@ export const DataRu = {
         Title: 'Steps to Build a Successful Digital Product',
         subTitle: 'HOW WE DO IT',
         steps:[
-            {desc:'Advertising & Marketing', stage:'0.1', imgBaloon: '/img/img_box_01.png', imgStrip: '/img/img_box_01.png'},
-            {desc:'Web Development', stage:'0.2', imgBaloon: '/img/img_box_01.png', imgStrip: '/img/img_box_01.png'},
-            {desc:'Advertising & Marketing', stage:'0.3', imgBaloon: '/img/img_box_01.png', imgStrip: '/img/img_box_01.png'},
-            {desc:'Advertising & Marketing', stage:'0.4', imgBaloon: '/img/img_box_01.png', imgStrip: '/img/img_box_01.png'},
+            {desc:'Advertising & Marketing', stage:'.01', imgBaloon: '/img/balloon-blue.svg', imgStrip: '/img/string-blue.svg'},
+            {desc:'Web Development', stage:'.02', imgBaloon: '/img/balloon-violet.svg', imgStrip: '/img/string-violet.svg'},
+            {desc:'Advertising & Marketing', stage:'.03', imgBaloon: '/img/balloon-pink.svg', imgStrip: '/img/string-pink.svg'},
+            {desc:'Advertising & Marketing', stage:'.04', imgBaloon: '/img/balloon-orange.svg', imgStrip: '/img/string-orange.svg'},
         ]
     },
     Portfolio: {
@@ -81,15 +81,15 @@ export const DataRu = {
         feedbackTitle: "ИЩИТЕ НОВЫХ КЛИЕНТОВ?",
         feedbackText: "Хотите развивать свой бизнес?",
         feedbackDesc: "Закажите БЕСПЛАТНУЮ КОНСУЛЬТАЦИЮ и мы расскажем, как привлечь клиентов в Ваш бизнес!",
-        feedbackImg: "/img/joxi_screenshot_1490279678733-min.jpg",
+        feedbackImg: "/img/home2_img_05.png",
         feedbackForm: ""
     },
     Partners:[
-        {partnerName: "Yandex", img: "/img/joxi_screenshot_1490279678733-min.jpg"},
-        {partnerName: "Google", img: "/img/joxi_screenshot_1490279678733-min.jpg"},
-        {partnerName: "Facebook", img: "/img/joxi_screenshot_1490279678733-min.jpg"},
-        {partnerName: "Tic Toc", img: "/img/joxi_screenshot_1490279678733-min.jpg"},
-        {partnerName: "Instagram", img: "/img/joxi_screenshot_1490279678733-min.jpg"},
+        {partnerName: "Yandex", img: "/img/1.png"},
+        {partnerName: "Google", img: "/img/1.png"},
+        {partnerName: "Facebook", img: "/img/1.png"},
+        {partnerName: "Tic Toc", img: "/img/1.png"},
+        {partnerName: "Instagram", img: "/img/1.png"},
 
     ],
     Contacts:{
