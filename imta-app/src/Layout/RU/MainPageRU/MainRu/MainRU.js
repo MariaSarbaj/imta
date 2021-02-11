@@ -7,6 +7,7 @@ import ConsultantForm from "../../../../Components/Forms/ConsultantForm/Consulta
 import Partners from "../../../../Components/Partners/Partners";
 import HowWeWork from "../../../../Components/HowWeWork/HowWeWork";
 import CompanyDescription from "../../../../Components/CompanyDescription/CompanyDescription";
+import './MainRu.css'
 
 const MainRu = () => {
   return (
